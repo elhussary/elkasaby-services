@@ -1,0 +1,59 @@
+/* Services.css */
+.homeServices {
+  margin: 30px;
+  padding: 30px;
+  width: 50%;
+  margin: auto;
+}
+.ServicesTitle {
+  color: var(--mainColor);
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.Servicesp {
+  text-align: center;
+  font-size: 0.9rem;
+
+  width: 100%;
+  margin: 0;
+  padding: 0 1rem;
+  box-sizing: border-box;
+}
+.imgServices {
+  filter: grayscale();
+  transition: all 0.3s;
+  width: 120px !important; /* Set the desired width */
+  object-fit: cover; /* Ensures images are scaled to fit the dimensions */
+}
+.imgServices:hover {
+  filter: none;
+}
+
+@media (max-width: 576px) {
+  .Servicesp {
+    font-size: 0.875rem;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+}
+.imgServices {
+  width: 100%; /* Makes the image responsive */
+  height: auto; /* Maintains aspect ratio */
+}
+
+@media (max-width: 576px) {
+  .imgServices {
+    width: 100%; /* Full width on extra-small screens */
+  }
+}
+
+@media (max-width: 576px) {
+  .imgServices {
+    width: 60% !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    display: block;
+  }
+}

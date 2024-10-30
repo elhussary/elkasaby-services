@@ -1,0 +1,23 @@
+body[dir="rtl"] {
+  text-align: right !important;
+  .form-control {
+    direction: rtl; /* Add this to input fields */
+  }
+}
+.language-btn {
+  padding: 8px 12px;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  transition: color 0.3s ease;
+  font-size: 25px !important;
+  color: var(--mainColor) !important;
+}
+
+.language-btn:hover {
+  color: var(--mainColor);
+}
+
+.language-btn:focus {
+  outline: none;
+}

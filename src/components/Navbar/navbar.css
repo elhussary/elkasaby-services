@@ -1,0 +1,71 @@
+.navbar {
+  background-color: rgb(255, 255, 255);
+  color: black;
+  z-index: 9999;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.navbar-brand {
+  color: var(--mainColor) !important;
+}
+
+.nav-link {
+  color: rgb(0, 0, 0) !important;
+  font-weight: bold !important;
+}
+
+.nav-link:hover {
+  color: var(--mainColor) !important;
+}
+
+/* Active Link Styling */
+.navbar .nav-link.active,
+.navbar .nav-link.show,
+.navbar.scrolled .nav-link.active {
+  color: var(--mainColor) !important;
+}
+
+/* Navbar Toggler Styling */
+.navbar-toggler {
+  border: none;
+  outline: none !important; /* Remove focus outline */
+}
+
+.navbar.scrolled .navbar-toggler-icon {
+  background-color: rgb(196, 196, 196);
+}
+
+[type="button"]:not(:disabled),
+[type="reset"]:not(:disabled),
+[type="submit"]:not(:disabled),
+button:not(:disabled) {
+  cursor: pointer;
+  border: none;
+}
+
+/* Navbar Button Styling */
+.navBtn {
+  border: none;
+  background: transparent;
+  transition: color 0.3s ease;
+  font-size: 25px !important;
+  color: var(--mainColor) !important;
+  cursor: pointer !important;
+}
+
+.navBtn:hover {
+  color: var(--mainColor) !important; /* Change color on hover */
+}
+
+.navBtn:focus {
+  outline: none; /* Remove outline */
+}
+@media (max-width: 450px) {
+  /* Bootstrap's small screen breakpoint */
+  .navbar-brand h1 {
+    font-weight: bold;
+    font-size: 0.9rem; /* Adjust this value as needed for smaller screens */
+  }
+}

@@ -1,0 +1,22 @@
+/* app.css */
+html {
+  scroll-behavior: smooth;
+}
+
+body[dir="rtl"] {
+  font-family: "Noto Kufi Arabic", sans-serif;
+  text-align: right;
+}
+
+body[dir="ltr"] {
+  font-family: "Roboto", sans-serif;
+  text-align: left !important;
+}
+
+.app-container[dir="rtl"] .navbar {
+  text-align: right !important;
+}
+
+.navbar-scroll-custom[dir="rtl"] .nav-link {
+  text-align: right;
+}

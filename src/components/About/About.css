@@ -1,0 +1,53 @@
+/* Services.css */
+
+.WhoWeAreTitle {
+  color: var(--mainColor);
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.WhoWeAreP {
+  text-align: center;
+  font-size: 0.9rem;
+  max-width: 900px;
+  margin: auto;
+  padding: 0 1rem;
+  box-sizing: border-box;
+}
+
+@media (max-width: 780px) {
+  .WhoWeAreP {
+    width: 100%;
+    font-size: 0.875rem;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .about {
+    width: 80%;
+    height: auto;
+  }
+}
+
+@media (max-width: 615px) {
+  .about {
+    width: 90%;
+    height: auto;
+  }
+}
+
+@media (max-width: 480px) {
+  .WhoWeAreP {
+    font-size: 0.5rem;
+    width: 90% !important;
+  }
+}
+@media (max-width: 350px) {
+  .WhoWeAreP {
+    font-size: 0.5rem;
+    width: 90% !important;
+  }
+}

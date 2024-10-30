@@ -1,0 +1,65 @@
+.footerHeader {
+  font-size: 2rem !important;
+}
+
+.footer {
+  background-color: #292929;
+
+  font-size: 1.2rem;
+  color: #fff;
+}
+
+.footer a,
+.footer-link,
+.footerLinks a {
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: #fff;
+  transition: color 0.3s;
+  padding-right: 10px;
+}
+
+.footer a:hover,
+.footerLinks a:hover,
+.footer p:hover {
+  color: var(--mainColor);
+}
+.footer .maill {
+  margin-top: 10px;
+}
+
+.footerLinks {
+  margin: 0;
+  padding: 0;
+}
+
+/* Responsive font size for smaller screens */
+@media (max-width: 768px) {
+  .footer .maill {
+    margin-top: 10px;
+  }
+  .footer,
+  .footer a,
+  .footer-link,
+  .footerLinks a {
+    font-size: 1rem; /* Slightly smaller on medium screens */
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .footer,
+  .footer a,
+  .footer-link,
+  .footerLinks a {
+    font-size: 0.9rem; /* Even smaller on small screens */
+  }
+}
+@media (max-width: 480px) {
+  .footerHeader {
+    font-size: 1.5rem !important;
+  }
+  .copyRights {
+    padding-top: 25px;
+  }
+}

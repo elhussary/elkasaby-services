@@ -1,0 +1,41 @@
+.contact-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 70vh;
+  padding: 2rem;
+}
+
+.contact-title {
+  color: var(--mainColor);
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+}
+
+.form-control {
+  width: 100%;
+  margin-bottom: 1rem;
+  border: none;
+  border-bottom: 2px solid #808740;
+  outline: none;
+  border-radius: 0;
+  color: rgb(1, 120, 5) !important;
+  background: transparent;
+  transition: border-bottom-color 0.3s ease-in-out;
+}
+
+.form-control:focus {
+  border-bottom-color: #ccc;
+  box-shadow: none;
+}
+
+.text-danger {
+  color: red;
+}
+
+.btn-success {
+  background-color: var(--mainColor) !important;
+  border-color: var(--mainColor) !important;
+  transition: background-color 0.3s;
+}
